@@ -1,0 +1,41 @@
+# Sistema CRUD de Usuários
+
+Projeto desenvolvido para praticar operações CRUD usando Node.js, Express, SQLite, HTML, CSS e JavaScript.
+
+## Funcionalidades
+
+- Cadastrar usuários
+- Listar usuários
+- Editar usuários
+- Excluir usuários
+- Integração entre frontend e backend
+- Banco de dados SQLite
+
+## Tecnologias usadas
+
+- Node.js
+- Express
+- SQLite
+- HTML
+- CSS
+- JavaScript
+
+## Como executar
+
+1. Entre na pasta backend:
+
+```bash
+cd backend
+
+2. Instale as dependências
+npm install
+
+3. Inicie o servidor:
+node server.js
+
+4. Abra o arquivo frontend/index.html com Live Server.
+
+
+Objetivo do projeto
+
+Este projeto foi criado para praticar os conceitos básicos de desenvolvimento web full stack, incluindo criação de API, integração com banco de dados e consumo da API pelo frontend.
