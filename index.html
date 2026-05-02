@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema CRUD Simples</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sistema CRUD de Usuários</h1>
+
+    <form id="formUsuario">
+      <input type="hidden" id="id">
+
+      <label>Nome</label>
+      <input type="text" id="nome" placeholder="Digite o nome">
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Digite o email">
+
+      <label>Telefone</label>
+      <input type="text" id="telefone" placeholder="Digite o telefone">
+
+      <button type="submit">Salvar</button>
+      <button type="button" id="cancelar">Cancelar edição</button>
+    </form>
+
+    <h2>Usuários cadastrados</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="listaUsuarios"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
